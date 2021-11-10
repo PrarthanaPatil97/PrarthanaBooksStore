@@ -43,5 +43,15 @@
 9.10- Add new admin area to areas....Add proper view files.......Delete data and models folder.
 9.15- delete controller folder.....update the github repo....Done with part 1 of assignment 2
 
-
+9/11/2021
+5.00- Started part 2 for assignment....first step to create migration and update the database name..
+	......oops find errors in add migrations.....changes the dafault project to .DataAccess the run again the migration add in console....still error......
+	....Started new project go through all the steps in part 1
+9.00- Start the part 2 
+9.05- Add migration AddDefaultIdentityMigration package to .DataAccess project....finally build succeded....
+9.10- Move to the next step....Review the file for sql syntax,statements,columns, primary key....
+9.25- in console update the database and Build started...Build succeeded.....Done.
+9.30- Add new class to .Models project name category.cs...define the table...and push it to database..
+9.35- add the migrations via PM console by run  add-migration AddCategoryToDb....Build started...
+		.....Build succeeded.
 
