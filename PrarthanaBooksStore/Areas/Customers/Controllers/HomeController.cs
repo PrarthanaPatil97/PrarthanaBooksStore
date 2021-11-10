@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace PrarthanaBooksStore.Controllers
+namespace PrarthanaBooksStore.Area.Customers.Controllers
 {
-    [Area("Customer")]
+    [Area("Customers")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
