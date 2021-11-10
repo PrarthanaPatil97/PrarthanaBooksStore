@@ -54,4 +54,16 @@
 9.30- Add new class to .Models project name category.cs...define the table...and push it to database..
 9.35- add the migrations via PM console by run  add-migration AddCategoryToDb....Build started...
 		.....Build succeeded.
+9.40- Update new migration file and add using statement in it....Rerun ....add-migration AddCategoryToDb.....
+		Build started...Build succeeded....review the changes to AddCategoryToDb
+9.50- Start to implement Repository in .DataAccess project....add one class file for class implementation and another for
+	.....interfaces implementation
+9.55- Add new item to the folder and name it IRespository.cs
+9.56- Modify it ....using statement.....method are use for CRUD operations...implement a class that implement the respository
+		.....include all the using statement for implements interfaces.
+10.00- Modify the code to create constructors and dependency injection.
+10.05- Create individual repos for category and all potential models to be added in future .....
+		CategoryRepository.cs
+		ICategoryRepository.cs
+10.11- modify CategoryRepository.....modify ICategoryRepository interface....Implement the interface tp update in IcategoryRepositiry.cs
 
