@@ -77,3 +77,6 @@
 		a new class in the repository folder.
 1.45 - Add new classs SP_Call.cs to Repository folder by including using stattement...using Dapper...implement the ISP_Call interface...
 	Add the connection to database using additional using statement ...modify the ISP_Call interface implementation.
+ 
+12/11/2021 
+2.10- Add new interface to IRepository folder and update the code 
