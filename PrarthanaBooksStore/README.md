@@ -85,4 +85,5 @@
 
 13/11/2021
 11.00- Modify the code in class implements the interface.....
+11.18- Modify startup.cs to accessible class UnitOf Work by project with  services.AddScoped<UnitOfWork,UnitOfWork>();
 11.19- Build the project....build succeded.....push commits to Github.
