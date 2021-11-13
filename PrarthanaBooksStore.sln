@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrarthanaBooksStore", "PrarthanaBooksStore\PrarthanaBooksStore.csproj", "{5EC346BC-DBBC-4FAB-9BFA-CFC326119F82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrarthanaBooksStore", "PrarthanaBooksStore\PrarthanaBooksStore.csproj", "{5EC346BC-DBBC-4FAB-9BFA-CFC326119F82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrarthanaBooks.DataAccess", "PrarthanaBooks.DataAccess\PrarthanaBooks.DataAccess.csproj", "{DD84118F-5451-44D9-8FDE-7BCF2EC083A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrarthanaBooks.DataAccess", "PrarthanaBooks.DataAccess\PrarthanaBooks.DataAccess.csproj", "{DD84118F-5451-44D9-8FDE-7BCF2EC083A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrarthanaBooks.Models", "PrarthanaBooks.Models\PrarthanaBooks.Models.csproj", "{8C57110F-F626-4C70-810A-27DC173299B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrarthanaBooks.Models", "PrarthanaBooks.Models\PrarthanaBooks.Models.csproj", "{8C57110F-F626-4C70-810A-27DC173299B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrarthanaBooks.Utility", "PrarthanaBooks.Utility\PrarthanaBooks.Utility.csproj", "{6BBFE258-ED80-4970-BCAC-C3C0B3E58864}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrarthanaBooks.Utility", "PrarthanaBooks.Utility\PrarthanaBooks.Utility.csproj", "{6BBFE258-ED80-4970-BCAC-C3C0B3E58864}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

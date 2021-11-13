@@ -13,6 +13,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using PrarthanaBooks.DataAccess.Repository;
 
 namespace PrarthanaBooksStore
 {
@@ -35,6 +36,7 @@ namespace PrarthanaBooksStore
 
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<UnitOfWork,UnitOfWork>();
             services.AddControllersWithViews();
         }
 
