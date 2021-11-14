@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using System.ComponentModel.DataAnnotations.Schema;
 namespace PrarthanaBooksStore.Areas.Admin.Controllers
 {
     [Area("Admin")]
@@ -19,11 +19,13 @@ namespace PrarthanaBooksStore.Areas.Admin.Controllers
         {
             return View();
         }
-        
+
+        #region API CALLS
         public IActionResult GetAll()
         {
             var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
         }
+        #endregion
     }
 }
