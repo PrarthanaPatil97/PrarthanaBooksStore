@@ -3,10 +3,11 @@ using PrarthanaBooksStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using PrarthanaBooks.DataAccess.Repository;
 
 namespace PrarthanaBooks.DataAccess.Repository
 {
-   public class UnitOfWork
+    public class UnitOfWork:IUnitOfWork
     {
         private readonly ApplicationDbContext _db;
         public UnitOfWork(ApplicationDbContext db)
@@ -26,4 +27,6 @@ namespace PrarthanaBooks.DataAccess.Repository
             _db.SaveChanges();
         }
     }
+
+   
 }
