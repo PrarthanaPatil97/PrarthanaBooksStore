@@ -92,7 +92,7 @@
 10.00- Opps.....error in startup.cs....UnitOfWork not found.....Generate new interface IUnitOfWork....try to solve error...
 		spend 2 hrs to solve error......finally reslove and build suceeded....
 12.10- Start next step....Add new controller to Area/Admin....CategoryController.cs...Modify the code to use the IUnitOfWork from the .DataAccess project..... 
-	and IRepository folder.
+		and IRepository folder.
 12.25- Add new view "Index" to the folder ...modify the code of index.cshtml with the code in Assignment2/IndexView.txt
 12.50- Save the application and run ....build sucessfully....In layout.cshtml move the category link to the content management dropdown
 12.55- run the application and review the changes to the navigation....push to github...
@@ -100,3 +100,12 @@
 1.20- delete it and add to the javascript file from assignemtn2 into wwwroot/js folder 
 1.30- In index.cshtml add the @section to the category.js script and run the application
 1.40-opppppssss....Error......Microsoft.Data.SqlClient.SqlException: 'Invalid object name 'Categories'.'
+
+
+5.00- Try to slove but not solver the error so move to the next part without pushing github....create a new catergory using the upsert action 
+		in categorycontroller.cs....Add new view name...Upsert.cshtml.....add and copy the code from blackboard.......Create a partial view in views/shared/ folder 
+		for EDIT/BACK.....Add asp-action in partial view named CreateAndBackToListButton.cshtml
+5.25- Create another partial view _EditAndBackToListButton and modify the code and code addition of the @model razor statement...add @model to upsert.cshtml
+	Add the asp-action to the Index.cshtml page and run the application.
+		
+
