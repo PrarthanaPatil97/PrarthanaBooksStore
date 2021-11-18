@@ -108,4 +108,11 @@
 5.25- Create another partial view _EditAndBackToListButton and modify the code and code addition of the @model razor statement...add @model to upsert.cshtml
 	Add the asp-action to the Index.cshtml page and run the application.
 		
+18/11/2021
+Start time 9.00
+
+9.05: Modify data and model folder....
+9.30- Bulid the project...build suceeful.....push to github
+
+Total Time:30 min
 
