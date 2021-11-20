@@ -112,7 +112,14 @@
 Start time 9.00
 
 9.05: Modify data and model folder....
-9.30- Bulid the project...build suceeful.....push to github
+9.30- Bulid the project...build sucessful.....push to github
+1.00- Start the remaining changes of part 3 
+1.05- Create a new Upsert post method to categoryController.cs
+1.15- Add new void save method to UnitOfWork file....Remove _Db_Savechanges methos from categoryRepository.cs...And add To CategoryControoler.cs with return To Redirectaction method...
+		......Check the error...no error....start Building....Build Succeded...finally added the category to the database....
+1.30- Add new API  call for HTTPDelete in CategoryController.cs
 
-Total Time:30 min
-
+20/11/2021
+11.00- implement the HTTPDelete with the delete method in category.js file and add functionality to the application and call API with onclick event to the delete function ..
+		Add the Delete(url) function code to the category.js file .....chec for error no error ....test the application.....
+		....opppppssss.....the delete button not work and edit also.....update readme....push changes to github....
