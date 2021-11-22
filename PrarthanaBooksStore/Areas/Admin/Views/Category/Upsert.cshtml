@@ -31,7 +31,7 @@
             </div>
             <div class="form-group row">
                 <div class="col-8 offset-4">
-                    @if(Model !=null)
+                    @if(Model.Id !=0)
                      {
                         <partial name="__EditAndBackToListButton" model="Model.Id" />
                      }
