@@ -148,3 +148,7 @@ Start time 9.00
 		....opppppssss.....the delete button not work and edit also.....update readme....push changes to github....
 
 Total Time: 7hrs
+
+22/11/2021
+
+2.00- Start reviwwing all the ppt from part1 For solve errors in upsert file for edit function........not done.....
