@@ -1,5 +1,6 @@
 # PrarthanaBooksStore
 11/3/2021
+Start time 5.00
 5:00- Create new core Mvc application. Named PrarthanasBookStore 
 5:05- Review all the files which created by default in project
 5.20- Create a git respository and push into github
@@ -23,7 +24,11 @@
 6.55- delete the class1.cs file from all project
 7.00 - run the project
 
+Total Time:3hrs 25 min
+
 11/3/2021
+Start Time: 8.00
+
 8.00- Add project reference to all the three project
 8.05- Rename models folder to viewmodels
 8.10- Chnage the ErrorViewModels.cs namespace .Models.ViewModels
@@ -44,7 +49,11 @@
 9.10- Add new admin area to areas....Add proper view files.......Delete data and models folder.
 9.15- delete controller folder.....update the github repo....Done with part 1 of assignment 2
 
+Total time:1hr 20min
+
 9/11/2021
+Start time:5.00
+
 5.00- Started part 2 for assignment....first step to create migration and update the database name..
 	......oops find errors in add migrations.....changes the dafault project to .DataAccess the run again the migration add in console....still error......
 	....Started new project go through all the steps in part 1
@@ -71,15 +80,23 @@
 		Implement the interface tp update in IcategoryRepositiry.cs
 10.22- Complete remaining modifications....build...build succeded...push commits to gitHub...
 
+Total Time:6hrs
+
 11/11/2021
+Start time: 1.30
 
 1.37 - Add new interface in IRepository folder named ISP_Call.ca that extends IDisposable
 1.38- Argument dynamicsParameters shows error so include dapper NuGet Package for dapper and using statement....Error resolved...implement this interface with 
 		a new class in the repository folder.
 1.45 - Add new classs SP_Call.cs to Repository folder by including using stattement...using Dapper...implement the ISP_Call interface...
 	Add the connection to database using additional using statement ...modify the ISP_Call interface implementation.
- 
+
+Total Time: 1hr
+
+
 12/11/2021 
+Start time: 2.00
+
 2.10- Add new interface to IRepository folder and update the code 
 2.30 - implement this interface in UnitOfwork and include the require package using statement
 
@@ -88,7 +105,12 @@
 11.18- Modify startup.cs to accessible class UnitOf Work by project with  services.AddScoped<UnitOfWork,UnitOfWork>();
 11.19- Build the project....build succeded.....push commits to Github.
 
+Total Time: 6hrs
+
 14/11/2021
+
+Start time:10.00
+
 10.00- Opps.....error in startup.cs....UnitOfWork not found.....Generate new interface IUnitOfWork....try to solve error...
 		spend 2 hrs to solve error......finally reslove and build suceeded....
 12.10- Start next step....Add new controller to Area/Admin....CategoryController.cs...Modify the code to use the IUnitOfWork from the .DataAccess project..... 
@@ -100,14 +122,15 @@
 1.20- delete it and add to the javascript file from assignemtn2 into wwwroot/js folder 
 1.30- In index.cshtml add the @section to the category.js script and run the application
 1.40-opppppssss....Error......Microsoft.Data.SqlClient.SqlException: 'Invalid object name 'Categories'.'
-
-
 5.00- Try to slove but not solver the error so move to the next part without pushing github....create a new catergory using the upsert action 
 		in categorycontroller.cs....Add new view name...Upsert.cshtml.....add and copy the code from blackboard.......Create a partial view in views/shared/ folder 
 		for EDIT/BACK.....Add asp-action in partial view named CreateAndBackToListButton.cshtml
 5.25- Create another partial view _EditAndBackToListButton and modify the code and code addition of the @model razor statement...add @model to upsert.cshtml
 	Add the asp-action to the Index.cshtml page and run the application.
-		
+
+
+Total Time: 5hr 30min
+
 18/11/2021
 Start time 9.00
 
