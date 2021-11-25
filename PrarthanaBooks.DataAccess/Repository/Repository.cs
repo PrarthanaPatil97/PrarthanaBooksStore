@@ -54,7 +54,7 @@ namespace PrarthanaBooks.DataAccess.Repository
 
 
 
-        public T getFirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)
+        public T GetFirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)
         {
             IQueryable<T> query = dbSet;
             if (filter != null)

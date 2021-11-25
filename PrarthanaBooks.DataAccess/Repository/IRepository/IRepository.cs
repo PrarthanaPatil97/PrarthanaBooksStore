@@ -14,9 +14,9 @@ namespace PrarthanaBooks.DataAccess.Repository.IRepository
         IEnumerable<T> GetAll(
             Expression<Func<T, bool>> filter = null,
             Func<IQueryable<T>,IOrderedQueryable<T>> orderBy = null,
-            string inckudeProperties = null);   //useful for foreign key references
+            string includeProperties = null);   //useful for foreign key references
 
-        T getFirstOrDefault(
+        T GetFirstOrDefault(
             Expression<Func<T, bool>> filter = null,
             string includeProperties = null
             );
