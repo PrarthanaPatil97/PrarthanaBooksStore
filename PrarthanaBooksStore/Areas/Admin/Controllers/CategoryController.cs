@@ -28,7 +28,7 @@ namespace PrarthanaBooksStore.Areas.Admin.Controllers
             {
                 return View(category);
             }
-            return View();
+            
             category = _unitOfWork.Category.Get(id.GetValueOrDefault());
             if(category == null)
             {
