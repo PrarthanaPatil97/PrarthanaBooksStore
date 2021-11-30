@@ -1,6 +1,9 @@
 # PrarthanaBooksStore
-11/3/2021
+<--------------------------------------------------PART 1---------------------------------------------->
+2021/11/03
+
 Start time 5.00
+
 5:00- Create new core Mvc application. Named PrarthanasBookStore 
 5:05- Review all the files which created by default in project
 5.20- Create a git respository and push into github
@@ -26,7 +29,7 @@ Start time 5.00
 
 Total Time:3hrs 25 min
 
-11/3/2021
+2021/11/03
 Start Time: 8.00
 
 8.00- Add project reference to all the three project
@@ -51,7 +54,9 @@ Start Time: 8.00
 
 Total time:1hr 20min
 
-9/11/2021
+<------------------------------------------------------PART2------------------------------------------------------------>
+
+2021/11/09
 Start time:5.00
 
 5.00- Started part 2 for assignment....first step to create migration and update the database name..
@@ -82,7 +87,7 @@ Start time:5.00
 
 Total Time:6hrs
 
-11/11/2021
+2021/11/11
 Start time: 1.30
 
 1.37 - Add new interface in IRepository folder named ISP_Call.ca that extends IDisposable
@@ -94,7 +99,7 @@ Start time: 1.30
 Total Time: 1hr
 
 
-12/11/2021 
+2021/11/12 
 Start time: 2.00
 
 2.10- Add new interface to IRepository folder and update the code 
@@ -107,7 +112,7 @@ Start time: 2.00
 
 Total Time: 6hrs
 
-14/11/2021
+2021/11/14
 
 Start time:10.00
 
@@ -131,7 +136,7 @@ Start time:10.00
 
 Total Time: 5hr 30min
 
-18/11/2021
+2021/11/18
 Start time 9.00
 
 9.05: Modify data and model folder....
@@ -142,13 +147,30 @@ Start time 9.00
 		......Check the error...no error....start Building....Build Succeded...finally added the category to the database....
 1.30- Add new API  call for HTTPDelete in CategoryController.cs
 
-20/11/2021
+2021/11/20
 11.00- implement the HTTPDelete with the delete method in category.js file and add functionality to the application and call API with onclick event to the delete function ..
 		Add the Delete(url) function code to the category.js file .....chec for error no error ....test the application.....
 		....opppppssss.....the delete button not work and edit also.....update readme....push changes to github....
 
 Total Time: 7hrs
 
-22/11/2021
+2021/11/22
 
 2.00- Start reviwwing all the ppt from part1 For solve errors in upsert file for edit function........not done.....
+
+2021/11/29
+Start Time: 2.00PM
+
+2.00- Modify the categoryController.cs ........try to solve error......Unreachable code exist......
+4.00- Finally solve error ......changes in categoryController.cs.........Remoce extra return view.....
+8.00- Start to figureout all the coding of file categoryController.cs ,UnitOfWork.cs, IUnitOfWork.cs, Upsert.cshtml....
+9.00- Finally error resolve find in categoryController.cs line no 37 modify  return View(category);..........Error solve.....start build... ..
+		....build succeded.....edit works......
+
+Total Time: 7hr
+
+-----------------------------------------------------PART 3---------------------------------------------------------------
+
+Start Time: 9.15
+
+9.15- 
