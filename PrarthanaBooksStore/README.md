@@ -169,8 +169,15 @@ Start Time: 2.00PM
 
 Total Time: 7hr
 
------------------------------------------------------PART 3---------------------------------------------------------------
+---------------------------------------------------------PART 3--------------------------------------------------------------------
 
 Start Time: 9.15
 
-9.15- 
+9.15- Create CRUD cover type with exact method used for category
+9.20- Add CoverType.cs file in model folder Cover type model ID and Name
+9.30- Add cover type to repository Add CoverTypeRepository class and ICoverTypeRepository interface.
+9.45- Add CoverType to UnitOfWork and IUnitOfWork Push CoverType to the Database (Create migration and update the DB)
+10.00- Add CoverType to NavBar and Add controller with all required action methods.
+10.25- Add view Index for CoverType and upsert view for creating and updating CoverType
+10.30- Delete CoverType is done using API CALLS .....Start Building.....error....in CoverTypeController.cs.....Try to solve....
+		Build Suceeded......Create a cover type.......Exception....thrown....push to github....

@@ -1,21 +1,16 @@
-﻿@model PrarthanaBooks.Models.Category
+﻿@model PrarthanaBooks.Models.CoverType
 @{
-
     Layout = "~/Views/Shared/_Layout.cshtml";
-    var title = "Create Category";
+    var title = "Create Cover Type";
 }
-
 <form method="post">
     <div class="row p-3 border">
-
-        <div asp-validation-summary="ModelOnly" class="text-danger">
-            @if(Model.Id != 0)
-            {
-                title = "Edit Category";
-            }
-        </div>
-
-
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        @if (Model.Id != 0)
+        {
+            // edit
+            title = "Edit Cover Type";
+        }
         <div class="col-12 border-bottom">
             <h2 class="text-primary">@title</h2>
         </div>
@@ -25,17 +20,18 @@
                     <label asp-for="Name"></label>
                 </div>
                 <div class="col-8">
-                  <input asp-for="Name" class="form-control" />
+                    <input asp-for="Name" class="form-control" />
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
             </div>
             <div class="form-group row">
                 <div class="col-8 offset-4">
-                    @if(Model.Id !=0)
-                     {
+                    @if (Model.Id != 0)
+                    {
                         <partial name="_EditAndBackToListButton" model="Model.Id" />
-                     }
-                    else{
+                    }
+                    else
+                    {
                         <partial name="_CreateAndBackToListButton" />
                     }
                 </div>
@@ -43,7 +39,7 @@
         </div>
     </div>
 </form>
-@section Scripts{ 
-<partial name="_ValidationScriptsPartial"/>
-}
 
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
