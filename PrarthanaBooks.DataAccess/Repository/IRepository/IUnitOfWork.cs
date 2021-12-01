@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PrarthanaBooks.DataAccess.Repository.IRepository
 {
-    public interface IUnitOfWork
+    public interface IUnitOfWork : IDisposable
     {
         ICategoryRepository Category { get; }
         ICoverTypeRepository CoverType { get; }
