@@ -1,9 +1,9 @@
 # PrarthanaBooksStore
-<--------------------------------------------------PART 1---------------------------------------------->
+<--------------------------------------------------------------------------------------PART 1----------------------------------------------------------------------------------------------->
 2021/11/03
 
 Start time 5.00
-
+............................................................
 5:00- Create new core Mvc application. Named PrarthanasBookStore 
 5:05- Review all the files which created by default in project
 5.20- Create a git respository and push into github
@@ -31,7 +31,7 @@ Total Time:3hrs 25 min
 
 2021/11/03
 Start Time: 8.00
-
+............................................................
 8.00- Add project reference to all the three project
 8.05- Rename models folder to viewmodels
 8.10- Chnage the ErrorViewModels.cs namespace .Models.ViewModels
@@ -54,11 +54,11 @@ Start Time: 8.00
 
 Total time:1hr 20min
 
-<------------------------------------------------------PART2------------------------------------------------------------>
+<---------------------------------------------------------------------------------------PART2----------------------------------------------------------------------------------------------------->
 
 2021/11/09
 Start time:5.00
-
+............................................................
 5.00- Started part 2 for assignment....first step to create migration and update the database name..
 	......oops find errors in add migrations.....changes the dafault project to .DataAccess the run again the migration add in console....still error......
 	....Started new project go through all the steps in part 1
@@ -115,7 +115,7 @@ Total Time: 6hrs
 2021/11/14
 
 Start time:10.00
-
+............................................................
 10.00- Opps.....error in startup.cs....UnitOfWork not found.....Generate new interface IUnitOfWork....try to solve error...
 		spend 2 hrs to solve error......finally reslove and build suceeded....
 12.10- Start next step....Add new controller to Area/Admin....CategoryController.cs...Modify the code to use the IUnitOfWork from the .DataAccess project..... 
@@ -139,7 +139,7 @@ Total Time: 5hr 30min
 
 2021/11/18
 Start time 9.00
-
+............................................................
 9.05: Modify data and model folder....
 9.30- Bulid the project...build sucessful.....push to github
 1.00- Start the remaining changes of part 3 
@@ -162,7 +162,7 @@ Total Time: 7hrs
 
 2021/11/29
 Start Time: 2.00PM
-
+............................................................
 2.00- Modify the categoryController.cs ........try to solve error......Unreachable code exist......
 4.00- Finally solve error ......changes in categoryController.cs.........Remoce extra return view.....
 8.00- Start to figureout all the coding of file categoryController.cs ,UnitOfWork.cs, IUnitOfWork.cs, Upsert.cshtml....
@@ -171,7 +171,7 @@ Start Time: 2.00PM
 -------------------------------------------
 Total Time: 7hr
 -------------------------------------------
----------------------------------------------------------PART 3--------------------------------------------------------------------
+------------------------------------------------------------------------------------PART 3-------------------------------------------------------------------------------------------------------
 
 Start Time: 9.15
 
@@ -187,7 +187,7 @@ Start Time: 9.15
 2021/11/30
 
 Start Time: 6.00PM
-
+............................................................
 6.00- Start part 3 Again to solve error by review all slides for category for steps to follow for covertype.....
 7.30- Finally solve error.....Forgot to add migration for Covertype ....Added....Update database ....push to git hub....finally...
 		Build succeded.....Cover type create new added,edited,delete...Push to github...update readme...
@@ -222,7 +222,7 @@ Start Time: 6.00PM
 
 2021/12/01
 Start Time: 9.00
-
+............................................................
 9.00- Review all the steps and again start part 3 section 2 and section 3 ......go through the all steps and rerun again .....stilll showss...error...try to solve.....
 		System.InvalidOperationException: 'An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation
 		' CoverType' specified in string based include path ' CoverType'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' 
