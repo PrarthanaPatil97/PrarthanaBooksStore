@@ -95,9 +95,9 @@ Start time: 1.30
 		a new class in the repository folder.
 1.45 - Add new classs SP_Call.cs to Repository folder by including using stattement...using Dapper...implement the ISP_Call interface...
 	Add the connection to database using additional using statement ...modify the ISP_Call interface implementation.
-
+-----------------------------------------
 Total Time: 1hr
-
+-----------------------------------------
 
 2021/11/12 
 Start time: 2.00
@@ -109,9 +109,9 @@ Start time: 2.00
 11.00- Modify the code in class implements the interface.....
 11.18- Modify startup.cs to accessible class UnitOf Work by project with  services.AddScoped<UnitOfWork,UnitOfWork>();
 11.19- Build the project....build succeded.....push commits to Github.
-
+------------------------------------------
 Total Time: 6hrs
-
+------------------------------------------
 2021/11/14
 
 Start time:10.00
@@ -133,8 +133,9 @@ Start time:10.00
 5.25- Create another partial view _EditAndBackToListButton and modify the code and code addition of the @model razor statement...add @model to upsert.cshtml
 	Add the asp-action to the Index.cshtml page and run the application.
 
-
+----------------------------------
 Total Time: 5hr 30min
+----------------------------------
 
 2021/11/18
 Start time 9.00
@@ -151,8 +152,9 @@ Start time 9.00
 11.00- implement the HTTPDelete with the delete method in category.js file and add functionality to the application and call API with onclick event to the delete function ..
 		Add the Delete(url) function code to the category.js file .....chec for error no error ....test the application.....
 		....opppppssss.....the delete button not work and edit also.....update readme....push changes to github....
-
+----------------------------------------------
 Total Time: 7hrs
+----------------------------------------------
 
 2021/11/22
 
@@ -166,9 +168,9 @@ Start Time: 2.00PM
 8.00- Start to figureout all the coding of file categoryController.cs ,UnitOfWork.cs, IUnitOfWork.cs, Upsert.cshtml....
 9.00- Finally error resolve find in categoryController.cs line no 37 modify  return View(category);..........Error solve.....start build... ..
 		....build succeded.....edit works......
-
+-------------------------------------------
 Total Time: 7hr
-
+-------------------------------------------
 ---------------------------------------------------------PART 3--------------------------------------------------------------------
 
 Start Time: 9.15
@@ -201,5 +203,31 @@ Start Time: 6.00PM
 		Build succeeded.
 		Done.
 
-10.30- 
+2021/12/01
+Start Time: 6.00PM
+............................................................
+6.00- Add a controller Product in Areaa>admin>ProductController.cs
+6,15- Add using Microsoft.AspNetCore.Hosting; for IWebHostEnvironment call.....Change the controller product public .....
+		Create a viewmodel in model folder ProductVM select listype covertype and category......Create a cass ProductVM  and change it to public 
+6.45- Install using Microsoft.AspNetCore.Mvc.Rendering; package ......Modify ProductController  so the IActionResult upsert calls to the ProductVM view model...
+7.00- Include using Microsoft.AspNetCore.Mvc.Rendering;...comment out upsert post methos...modify API call include  the Category and CoverType Properties...
+7.30- Add Indexview  code from View/Category and modify to the product List header,Create New product  and add the properties Title,
+		ISBN, Price, Author, Category and refernce a new file product.js
+8.00- Copy Category.js and paste and remane it product.js and modify the URL point to product.....Modify _Layout.cshtml to add new link..
+		to the product....Start Building Aplication...Build succeded.....Run the application.....Throws an exception hit continue....
+9.00- Create Upsert.cs for Products and modify file as assignment 2 files ....Run te application for create new product......error in creatin gnew product...
+		System.InvalidOperationException: 'An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation
+		' CoverType' specified in string based include path ' CoverType'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' 
+		to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or'AddDbContext'.'
 
+2021/12/01
+Start Time: 9.00
+
+9.00- Review all the steps and again start part 3 section 2 and section 3 ......go through the all steps and rerun again .....stilll showss...error...try to solve.....
+		System.InvalidOperationException: 'An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation
+		' CoverType' specified in string based include path ' CoverType'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' 
+		to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or'AddDbContext'.'
+
+-------------------------------------------
+Total Time: 
+-------------------------------------------
