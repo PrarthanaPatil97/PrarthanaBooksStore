@@ -258,5 +258,5 @@ Start Time:10.00AM
 		push to github....run the application.....product added sucessfully.....category data is not accessible.....oppppssss....
 12.00- update readme...
 -------------------------------------------
-Total Time: 5hr
+Total Time: 15hr
 -------------------------------------------
