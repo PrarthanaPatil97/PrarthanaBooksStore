@@ -1,8 +1,6 @@
 ﻿@model PrarthanaBooks.Models.ViewModels.ProductVM;
-@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-    var title = "Create Product";
-}
+@{ Layout = "~/Views/Shared/_Layout.cshtml";
+                var title = "Create Product"; }
 
 <form method="post" enctype="multipart/form-data">
     <div class="row p-3 border">
@@ -11,8 +9,7 @@
         {
             // edit
             title = "Edit Product";
-            <input type="hidden" asp-for="Product.Id" />
-        }
+<input type="hidden" asp-for="Product.Id" />}
         <div class="col-12 border-bottom">
             <h2 class="text-primary">@title</h2>
         </div>
@@ -121,28 +118,25 @@
                 <div class="col-8 offset-4">
                     @if (Model.Product.Id != 0)
                     {
-                        <partial name="_EditAndBackToListButton" model="Model.Product.Id" />
-                    }
+        <partial name="_EditAndBackToListButton" model="Model.Product.Id" /> }
                     else
                     {
-                        <div class="row">
-                            <div class="col">
-                                <button type="submit" onclick="return validateInput()" class="btn btn-primary form-control">Create</button>
-                            </div>
-                            <div class="col">
-                                <a asp-action="Index" class="btn btn-success form-control">Back to List</a>
-                            </div>
-                        </div>
-                    }
+        <div class="row">
+            <div class="col">
+                <button type="submit" onclick="return validateInput()" class="btn btn-primary form-control">Create</button>
+            </div>
+            <div class="col">
+                <a asp-action="Index" class="btn btn-success form-control">Back to List</a>
+            </div>
+        </div>}
                 </div>
             </div>
         </div>
         @if (Model.Product.Id != 0)
         {
-            <div class="col-3 offset-1 pt-4">
-                <img src="@Model.Product.ImageUrl" width="80%" style="border-radius:5px; border:1px solid #bbb9b9" />
-            </div>
-        }
+<div class="col-3 offset-1 pt-4">
+    <img src="@Model.Product.ImageUrl" width="100%" style="border-radius:5px; border:1px solid #bbb9b9" />
+</div>}
     </div>
 </form>
 
@@ -165,3 +159,16 @@
         }
     </script>
 }
+©️ 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete

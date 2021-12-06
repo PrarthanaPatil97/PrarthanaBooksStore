@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 
 namespace PrarthanaBooks.Models
 {
-     public class Product
+    public class Product
     {
+
         [Key]
         public int Id { get; set; }
         [Required]
@@ -40,5 +41,5 @@ namespace PrarthanaBooks.Models
         public int CoverTypeId { get; set; }
         [ForeignKey("CoverTypeId")]
         public CoverType CoverType { get; set; }
-}
+    }
 }
