@@ -220,6 +220,8 @@ Start Time: 6.00PM
 		' CoverType' specified in string based include path ' CoverType'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' 
 		to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or'AddDbContext'.'
 
+		<------------------------------------------------PART 4------------------------------------->
+
 2021/12/01
 Start Time: 9.00
 ............................................................
@@ -228,8 +230,33 @@ Start Time: 9.00
 		' CoverType' specified in string based include path ' CoverType'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' 
 		to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or'AddDbContext'.'
 
+1.00- Finally solve error .....product are added to the database..
 
 
+2021/12/02
+Start Time:10.00AM
+.......................
+10.00- Move next part...Buoild sart ...build sucedded....run again...opppssss......shows datatable error.....
+
+	DataTables warning: table id=tblData - Requested unknown parameter
+	'category.Name' for row 0, column 4.
+	For more information about this error, please see http://datatables.net/tn/4
+
+3.00- Review all the files ....save chages....push to github....build again...still shows error...
+3.30- Add price column to table price price 50 price 100...update database......
+4.00- Build the application.....build suceded....try to add product ......added.....category...fieldin table is empty....
+	Shows Error....
+	DataTables warning: table id=tblData - Requested unknown parameter 
+	'category.Name' for row 0, column 4. 
+	For more information about this error, please see http://datatables.net/tn/4
+
+	
+2021/12/03
+Start Time:10.00AM
+.......................
+10.00- Review all the file compair with the bulybook....save changes....build application...build...sucedded..
+		push to github....run the application.....product added sucessfully.....category data is not accessible.....oppppssss....
+12.00- update readme...
 -------------------------------------------
-Total Time: 
+Total Time: 5hr
 -------------------------------------------
